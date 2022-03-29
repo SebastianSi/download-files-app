@@ -1,0 +1,11 @@
+.table-container {
+  padding: 3vw;
+}
+
+.blurred {
+  opacity: 0.5;
+}
+
+.download-selected-text {
+  padding-left: 10px;
+}
