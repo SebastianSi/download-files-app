@@ -1,0 +1,13 @@
+.download-files-list {
+  padding: initial;
+  list-style-type: none;
+}
+
+.alert-box-file-text {
+  font-size: large;
+  color: rgba(255, 123, 0, 0.911);
+}
+
+ul.allowed .alert-box-file-text{
+  color: rgb(5, 119, 5);
+}

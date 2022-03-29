@@ -1,0 +1,42 @@
+table {
+  border: 2px solid lightgrey;
+  width: 80vw;
+  height: 25vh;
+  border-collapse: collapse;
+}
+    
+td, th {
+  text-align: start;
+}
+
+tr {
+  border-top: 1px solid lightgray;
+  height: 45px;
+}
+
+tr.table-row:hover {
+  background-color: gainsboro;
+}
+
+tr.table-row.selected {
+  background-color: lightgray;
+}
+    
+.table-header-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  padding-bottom: 1vh;
+}
+
+.table-submit-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+#main-checkbox {
+  margin-right: 10px;
+}
+
